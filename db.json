@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "James Smith",
+      "email": "james_smith@gmail.com",
+      "password": "james_123"
+    },
+    {
+      "id": 2,
+      "name": "Mike Doe",
+      "email": "mike_doe@gmail.com",
+      "password": "mike_123"
+    }
+  ],
+  "todoLists": [
+    {
+      "id": 1,
+      "title": "Home",
+      "colorId": 5,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Work",
+      "colorId": 4,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Hobby",
+      "colorId": 2,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Home",
+      "colorId": 3,
+      "userId": 2
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Vacuum the apartment",
+      "isDone": false,
+      "todoListId": 1
+    },
+    {
+      "id": 2,
+      "title": "Wipe off the dust",
+      "isDone": false,
+      "todoListId": 1
+    },
+    {
+      "id": 3,
+      "title": "Check emails",
+      "isDone": false,
+      "todoListId": 2
+    },
+    {
+      "id": 4,
+      "title": "Tie a scarf",
+      "isDone": false,
+      "todoListId": 3
+    },
+    {
+      "id": 5,
+      "title": "Take a walk with the dog",
+      "isDone": false,
+      "todoListId": 4
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "content": "#f2476a"
+    },
+    {
+      "id": 2,
+      "content": "#fb654e"
+    },
+    {
+      "id": 3,
+      "content": "#eb2d3a"
+    },
+    {
+      "id": 4,
+      "content": "#add8e6"
+    },
+    {
+      "id": 5,
+      "content": "#90ee90"
+    }
+  ]
+}
